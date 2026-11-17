@@ -49,13 +49,7 @@ h1, h2, h3, p { margin: 0; }
 .nav { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 32px; font-size: 15px; }
 .nav a { color: var(--text-sub); }
 .nav a:hover { color: var(--text); }
-.nav .btn-pill { color: var(--bg); }
 
-.btn-pill {
-  display: inline-flex; align-items: center; min-height: 44px; padding: 10px 20px;
-  border-radius: 999px; background: var(--accent); color: var(--bg); font-weight: 700;
-}
-.btn-pill:hover { color: var(--bg); filter: brightness(1.08); }
 .btn-outline {
   display: inline-flex; align-items: center; gap: 10px; min-height: 44px; padding: 14px 24px;
   border: 1px solid var(--line-strong); border-radius: 999px; font-weight: 700; font-size: 16px;
@@ -125,17 +119,6 @@ h1, h2, h3, p { margin: 0; }
 .value-card h3 { font-size: 22px; margin-bottom: 10px; }
 .value-card p { font-size: 15px; color: var(--text-sub); }
 
-/* Contact */
-.contact .container { padding-top: 112px; padding-bottom: 112px; }
-.contact h2 { font-size: 56px; line-height: 1.2; font-weight: 900; letter-spacing: -0.02em; margin-bottom: 40px; }
-.contact-links { display: flex; flex-wrap: wrap; gap: 16px 48px; font-size: 20px; }
-.contact-links a {
-  display: inline-flex; align-items: flex-end; min-height: 44px; padding-bottom: 4px;
-  border-bottom: 2px solid var(--line-strong);
-}
-.contact-links a.primary { border-bottom-color: var(--accent); }
-.contact-hours { margin-top: 24px; font-size: 15px; color: var(--text-muted); }
-
 /* Footer */
 .site-footer { border-top: 1px solid var(--line); background: var(--bg-deep); font-size: 14px; color: var(--text-muted); }
 .site-footer .container {
@@ -163,8 +146,6 @@ h1, h2, h3, p { margin: 0; }
   .hero h1 { font-size: 44px; }
   .section .container { padding-top: 64px; padding-bottom: 64px; }
   .section-title, .about-lead { font-size: 30px; }
-  .contact .container { padding-top: 72px; padding-bottom: 72px; }
-  .contact h2 { font-size: 38px; }
   .value-card .value-num { font-size: 44px; margin-bottom: 28px; }
   .info-grid { grid-template-columns: minmax(0, 1fr); }
 }
